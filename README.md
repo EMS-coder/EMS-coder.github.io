@@ -751,10 +751,6 @@
 
   <!-- FOOTER -->
   <footer>
-    <div class="footer-logo">
-      <span class="logo-dot"></span>
-      Easy Monday Solutions
-    </div>
     <nav>
       <ul>
         <li><a href="#services">Servicios</a></li>
