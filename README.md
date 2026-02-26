@@ -441,7 +441,8 @@
     /* ── FOOTER ── */
     footer {
       border-top: 1px solid var(--border);
-      padding: 3rem;
+      padding: 3rem 3rem 3rem 6rem;  /* arriba | derecha | abajo | izquierda */;
+      margin-left: 8rem;
       display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;
       background: var(--surface);
     }
@@ -477,6 +478,10 @@
 
   <!-- NAV -->
   <nav id="navbar">
+    <div class="logo">
+      <span class="logo-dot"></span>
+      Easy Monday Solutions
+    </div>
     <ul>
       <li><a href="#cta" class="nav-cta">Contacto</a></li>
     </ul>
@@ -743,12 +748,12 @@
 
   <!-- FOOTER -->
   <footer>
+    <div class="footer-logo">
+      <span class="logo-dot"></span>
+      Easy Monday Solutions
+    </div>
     <nav>
       <ul>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#process">Proceso</a></li>
-        <li><a href="#why">Nosotros</a></li>
-        <li><a href="#cta">Contacto</a></li>
       </ul>
     </nav>
     <p class="footer-copy">© 2025 Easy Monday Solutions. Todos los derechos reservados.</p>
