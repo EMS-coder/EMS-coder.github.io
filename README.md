@@ -477,10 +477,6 @@
 
   <!-- NAV -->
   <nav id="navbar">
-    <div class="logo">
-      <span class="logo-dot"></span>
-      Easy Monday Solutions
-    </div>
     <ul>
       <li><a href="#services">Servicios</a></li>
       <li><a href="#process">Proceso</a></li>
