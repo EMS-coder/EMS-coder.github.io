@@ -478,10 +478,6 @@
   <!-- NAV -->
   <nav id="navbar">
     <ul>
-      <li><a href="#services">Servicios</a></li>
-      <li><a href="#process">Proceso</a></li>
-      <li><a href="#why">Nosotros</a></li>
-      <li><a href="#testimonials">Clientes</a></li>
       <li><a href="#cta" class="nav-cta">Contacto</a></li>
     </ul>
   </nav>
