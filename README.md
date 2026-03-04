@@ -738,9 +738,9 @@
     <h2 class="reveal">Tu próximo lunes<br/>puede ser diferente</h2>
     <p class="reveal" style="transition-delay:0.1s">Conversemos sobre tus procesos actuales. La primera consulta es gratuita y sin compromiso.</p>
     <div class="cta-actions reveal" style="transition-delay:0.2s">
-      <a href="mailto:hola@easymonday.solutions" class="btn-primary">
+      <a href="mailto:hola@easymondaysolutions.com" class="btn-primary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        hola@easymonday.solutions
+        hola@easymondaysolutions.com
       </a>
       <a href="https://wa.me/5491100000000" class="btn-secondary">WhatsApp →</a>
     </div>
@@ -759,7 +759,7 @@
     <p class="footer-copy">© 2025 Easy Monday Solutions. Todos los derechos reservados.</p>
   </footer>
 
-  <script>
+<script>
     // Cursor
     const cursor = document.getElementById('cursor');
     const ring = document.getElementById('cursorRing');
@@ -783,13 +783,4 @@
     const reveals = document.querySelectorAll('.reveal');
     const obs = new IntersectionObserver(entries => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
-    }, { threshold: 0.12 });
-    reveals.forEach(el => obs.observe(el));
-
-    // Trigger hero reveals immediately
-    setTimeout(() => {
-      document.querySelectorAll('#hero .reveal').forEach(el => el.classList.add('visible'));
-    }, 100);
-  </script>
-</body>
-</html>
+    }, { thresho
