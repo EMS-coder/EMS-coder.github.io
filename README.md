@@ -783,4 +783,8 @@
     const reveals = document.querySelectorAll('.reveal');
     const obs = new IntersectionObserver(entries => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
-    }, { thresho
+    }, { threshold: 0.15 });
+    reveals.forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
